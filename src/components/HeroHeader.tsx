@@ -8,13 +8,10 @@ function getDaysUntil(dateStr: string): number {
   return Math.max(0, Math.ceil((target.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)));
 }
 
-// Scattered photo frames - positions/rotations chosen to feel natural, not algorithmic
+// Two subtle polaroids - right side only, faded, not competing with the hero content
 const FRAMES = [
-  { src: '/images/family-1.jpg', top: '10%',  right: '4%',  width: 88,  rotate:  3.5 },
-  { src: '/images/family-2.jpg', top: '42%',  right: '8%',  width: 72,  rotate: -2.8 },
-  { src: '/images/family-3.jpg', top: '62%',  right: '2%',  width: 80,  rotate:  1.9 },
-  { src: '/images/family-4.jpg', top: '12%',  left: '2%',   width: 68,  rotate: -4.1 },
-  { src: '/images/family-5.jpg', top: '55%',  left: '3%',   width: 76,  rotate:  2.3 },
+  { src: '/images/family-1.jpg', top: '8%',   right: '3%',  width: 76, rotate:  3.2, opacity: 0.55 },
+  { src: '/images/family-3.jpg', top: '52%',  right: '2%',  width: 64, rotate: -2.1, opacity: 0.45 },
 ];
 
 export const HeroHeader: FC = () => {
@@ -55,6 +52,7 @@ export const HeroHeader: FC = () => {
             height: Math.round(f.width * 0.85),
             transform: `rotate(${f.rotate}deg)`,
             zIndex: 10,
+            opacity: f.opacity,
           }}
         >
           <img src={f.src} alt="" draggable={false} />
