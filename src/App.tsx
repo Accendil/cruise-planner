@@ -24,9 +24,7 @@ export default function App() {
     await update(id, patch);
   };
 
-  const handleAdd = (title: string, phase: TripPhase) => {
-    void add(title, phase);
-  };
+  const handleAdd = (title: string, phase: TripPhase) => add(title, phase);
 
   const viewProps = { entries, loading, error, onStatusChange: handleStatusChange, onSelect: setSelected };
 

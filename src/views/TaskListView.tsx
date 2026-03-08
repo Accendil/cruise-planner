@@ -8,7 +8,7 @@ interface Props {
   error: string | null;
   onStatusChange: (id: string, status: EntryStatus) => void;
   onSelect: (entry: PlannerEntry) => void;
-  onAdd: (title: string, phase: TripPhase) => void;
+  onAdd: (title: string, phase: TripPhase) => Promise<void>;
 }
 
 export function TaskListView({ entries, loading, error, onStatusChange, onSelect, onAdd }: Props) {
