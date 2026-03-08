@@ -1,16 +1,20 @@
 import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import type { PlannerEntry, EntryStatus, TripPhase } from './types/planner';
 import { useEntries } from './hooks/useEntries';
 import { HeroHeader } from './components/HeroHeader';
-import { QuickAdd } from './components/QuickAdd';
-import { TaskList } from './components/TaskList';
+import { TabBar } from './components/TabBar';
 import { NotesPanel } from './components/NotesPanel';
+import { TodayView } from './views/TodayView';
+import { AgendaView } from './views/AgendaView';
+import { TaskListView } from './views/TaskListView';
+import { TimelineView } from './views/TimelineView';
+import { ResearchView } from './views/ResearchView';
+import { PhasesView } from './views/PhasesView';
 
 export default function App() {
   const { entries, loading, error, add, update } = useEntries();
   const [selected, setSelected] = useState<PlannerEntry | null>(null);
-
-  const handleAdd = (title: string, phase: TripPhase) => add(title, phase);
 
   const handleStatusChange = (id: string, status: EntryStatus) => {
     void update(id, { status });
@@ -20,42 +24,33 @@ export default function App() {
     await update(id, patch);
   };
 
+  const handleAdd = (title: string, phase: TripPhase) => {
+    void add(title, phase);
+  };
+
+  const viewProps = { entries, loading, error, onStatusChange: handleStatusChange, onSelect: setSelected };
+
   return (
-    <div style={{ minHeight: '100vh', background: 'var(--cream)' }}>
-      <HeroHeader />
-      <QuickAdd onAdd={handleAdd} />
-
-      <main style={{ paddingBottom: '4rem' }}>
-        {loading && (
-          <div
-            className="flex items-center justify-center py-20 font-body text-sm"
-            style={{ color: '#9a9590', fontFamily: 'var(--font-body)' }}
-          >
-            Loading your trip…
-          </div>
-        )}
-        {error && (
-          <div
-            className="mx-6 mt-6 px-4 py-3 rounded text-sm font-body"
-            style={{ background: '#fee2e2', color: '#991b1b', fontFamily: 'var(--font-body)' }}
-          >
-            {error}
-          </div>
-        )}
-        {!loading && !error && (
-          <TaskList
-            entries={entries}
-            onStatusChange={handleStatusChange}
-            onSelect={setSelected}
-          />
-        )}
-      </main>
-
-      <NotesPanel
-        entry={selected}
-        onClose={() => setSelected(null)}
-        onSave={handleSave}
-      />
-    </div>
+    <BrowserRouter>
+      <div style={{ minHeight: '100vh', background: 'var(--cream)' }}>
+        <HeroHeader />
+        <TabBar />
+        <main style={{ paddingBottom: '4rem' }}>
+          <Routes>
+            <Route path="/"         element={<TodayView    {...viewProps} />} />
+            <Route path="/agenda"   element={<AgendaView   {...viewProps} />} />
+            <Route path="/tasks"    element={<TaskListView {...viewProps} onAdd={handleAdd} />} />
+            <Route path="/timeline" element={<TimelineView {...viewProps} />} />
+            <Route path="/research" element={<ResearchView {...viewProps} />} />
+            <Route path="/phases"   element={<PhasesView   {...viewProps} />} />
+          </Routes>
+        </main>
+        <NotesPanel
+          entry={selected}
+          onClose={() => setSelected(null)}
+          onSave={handleSave}
+        />
+      </div>
+    </BrowserRouter>
   );
 }
