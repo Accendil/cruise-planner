@@ -47,7 +47,7 @@ export const HeroHeader: FC = () => {
           className="photo-frame hidden md:block"
           style={{
             top: f.top,
-            ...(f.right ? { right: f.right } : { left: f.left }),
+            right: f.right,
             width: f.width,
             height: Math.round(f.width * 0.85),
             transform: `rotate(${f.rotate}deg)`,
