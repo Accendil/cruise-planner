@@ -1,0 +1,230 @@
+[
+  {
+    "id": "seed-001",
+    "title": "Stay at ibis Styles London Gatwick Airport",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "BOOKING",
+    "status": "BOOKED",
+    "confidence": "CONFIRMED",
+    "owner": "BOTH",
+    "priority": "CRITICAL",
+    "startAt": "2026-05-21T15:00:00+01:00",
+    "endAt": "2026-05-22T06:10:00+01:00",
+    "location": "London Road, Crawley, RH10 9GY",
+    "notes": "Exact check-in/check-out to confirm."
+  },
+  {
+    "id": "seed-002",
+    "title": "Flight to Orlando (BA 2037)",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TRAVEL",
+    "status": "BOOKED",
+    "confidence": "CONFIRMED",
+    "owner": "BOTH",
+    "priority": "CRITICAL",
+    "startAt": "2026-05-22T10:40:00+01:00",
+    "endAt": "2026-05-22T20:15:00-04:00",
+    "location": "London LGW → Orlando MCO",
+    "bookingRef": "BA 2037"
+  },
+  {
+    "id": "seed-003",
+    "title": "Cruise: Star of the Seas",
+    "phase": "FLORIDA_CRUISE",
+    "type": "BOOKING",
+    "status": "BOOKED",
+    "confidence": "CONFIRMED",
+    "owner": "BOTH",
+    "priority": "CRITICAL",
+    "startAt": "2026-05-24T00:00:00-04:00",
+    "endAt": "2026-05-31T00:00:00-04:00",
+    "bookingRef": "8332287",
+    "notes": "7 Night Eastern Caribbean & Perfect Day. Stateroom 8610 - D1. Dining 17:00."
+  },
+  {
+    "id": "seed-004",
+    "title": "Flight to London (BA 2036)",
+    "phase": "UK_POST_CRUISE",
+    "type": "TRAVEL",
+    "status": "BOOKED",
+    "confidence": "CONFIRMED",
+    "owner": "BOTH",
+    "priority": "CRITICAL",
+    "startAt": "2026-06-03T22:15:00-04:00",
+    "endAt": "2026-06-04T06:45:00+01:00",
+    "location": "Orlando MCO → London LGW",
+    "bookingRef": "BA 2036"
+  },
+  {
+    "id": "seed-005",
+    "title": "Pay cruise final balance (£4,647.68)",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "READY",
+    "confidence": "CONFIRMED",
+    "owner": "RYAN",
+    "priority": "CRITICAL",
+    "dueDate": "2026-03-15",
+    "notes": "Reservation 8332287. Due by 15 March 2026."
+  },
+  {
+    "id": "seed-006",
+    "title": "Confirm all required documents and booking refs",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "BOTH",
+    "priority": "CRITICAL"
+  },
+  {
+    "id": "seed-007",
+    "title": "Confirm how bags get to the plane",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "IMPORTANT"
+  },
+  {
+    "id": "seed-008",
+    "title": "Decide transport to airport (drive/park/train/taxi)",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "IMPORTANT"
+  },
+  {
+    "id": "seed-009",
+    "title": "Sort cat sitter",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "BOTH",
+    "priority": "CRITICAL"
+  },
+  {
+    "id": "seed-010",
+    "title": "Confirm exact airport terminal and check-in assumptions",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "CRITICAL"
+  },
+  {
+    "id": "seed-011",
+    "title": "Create travel day detailed itinerary",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "IDEA",
+    "owner": "RYAN",
+    "priority": "IMPORTANT"
+  },
+  {
+    "id": "seed-012",
+    "title": "Confirm post-flight plan and timings",
+    "phase": "FLORIDA_PRE_CRUISE",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "BOTH",
+    "priority": "CRITICAL"
+  },
+  {
+    "id": "seed-013",
+    "title": "Confirm transfer from Orlando to port / accommodation",
+    "phase": "FLORIDA_PRE_CRUISE",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "CRITICAL"
+  },
+  {
+    "id": "seed-014",
+    "title": "Confirm cruise embarkation timing",
+    "phase": "FLORIDA_PRE_CRUISE",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "CRITICAL"
+  },
+  {
+    "id": "seed-015",
+    "title": "Research animal swim excursion options",
+    "phase": "FLORIDA_CRUISE",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "IMPORTANT"
+  },
+  {
+    "id": "seed-016",
+    "title": "Research themed nights / dress code",
+    "phase": "FLORIDA_CRUISE",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "NICE_TO_HAVE"
+  },
+  {
+    "id": "seed-017",
+    "title": "Decide beaches / beach clubs",
+    "phase": "FLORIDA_CRUISE",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "NICE_TO_HAVE"
+  },
+  {
+    "id": "seed-018",
+    "title": "Research NASA visit options",
+    "phase": "FLORIDA_POST_CRUISE",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "IMPORTANT"
+  },
+  {
+    "id": "seed-019",
+    "title": "Research manatee experience options",
+    "phase": "FLORIDA_POST_CRUISE",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "NICE_TO_HAVE"
+  },
+  {
+    "id": "seed-020",
+    "title": "Confirm airport transfer plan for return flight",
+    "phase": "FLORIDA_POST_CRUISE",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "CRITICAL"
+  },
+  {
+    "id": "seed-021",
+    "title": "Arrange car / return transport from Gatwick",
+    "phase": "UK_POST_CRUISE",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "CRITICAL"
+  }
+]
