@@ -97,7 +97,7 @@
   },
   {
     "id": "seed-008",
-    "title": "Sort transport to Gatwick (drive / roof box / train)",
+    "title": "Sort transport to Gatwick + airport parking",
     "phase": "UK_PRE_FLIGHT",
     "type": "RESEARCH",
     "status": "TO_BE_RESEARCHED",
@@ -105,19 +105,19 @@
     "owner": "BOTH",
     "priority": "IMPORTANT",
     "estimatedMinutes": 30,
-    "notes": "See seed-031 for detailed luggage/roof box analysis.\nSince you're already staying at ibis Styles Gatwick the night before, driving makes most sense - leaves car near airport and avoids morning stress.\nOptions:\n1. Drive + park near hotel: Book hotel parking if available, or Long Stay car park at LGW (pre-book APH.com ~£80-100 for 2 weeks). Shuttle to terminal included.\n2. Drive to hotel, leave car in hotel car park for 13 nights: Call ibis Styles directly - some airport hotels offer park-and-fly packages.\n3. Train: Manchester Piccadilly → London Bridge/Thameslink → Gatwick (or Gatwick Express from Victoria). ~2h30, ~£50-80pp. Doable with trolleys."
+    "notes": "See seed-031 for luggage/roof box analysis.\nDriving to Gatwick makes most sense (already staying at ibis Styles the night before).\n\nPARKING - need to book this. Flight is from SOUTH TERMINAL (BA uses South).\nBest options for 14-day Meet & Greet at South Terminal:\n• Purple Parking M&G South: purpleparking.com/gatwick-parking/meet-and-greet-gatwick-south\n• ACE Meet & Greet (cheapest): book via skyparksecure.com or holidayextras.com\n• Maple Manor M&G: mapleparking.co.uk/meet-and-greet-gatwick-south\nPricing: ~£65-70/week booked well ahead → 2 weeks ~£100-130. Book NOW to lock in good price (prices rise closer to travel). Compare at parkandgo.co.uk or holidayextras.com.\n\nHotel parking: Call ibis Styles Gatwick on +44 1293 312260 - some airport hotels offer park-and-fly but it's often expensive (£15+/day for 14 days = £210). Off-site M&G is almost always cheaper.\n\nAlternative: Train Manchester Piccadilly → London Bridge/Thameslink → Gatwick (~2h30, ~£50-80pp). Doable but harder with roof box and kids."
   },
   {
     "id": "seed-009",
     "title": "Sort cat sitter (22 May - 4 Jun)",
     "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
-    "status": "INBOX",
+    "status": "TO_BE_RESEARCHED",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "BOTH",
     "priority": "CRITICAL",
     "estimatedMinutes": 60,
-    "notes": "Away 22 May - 4 Jun = 13 nights. Book early - late May is a popular period.\nOptions:\n• Family or trusted friend (ideal)\n• Pawshake.co.uk - local sitters with reviews, insured\n• TrustedHousesitters.com - house sitter stays in your home (free pet care in exchange for accommodation)\nWhen booked: Leave vet contact + number, feeding schedule, location of food/litter, spare key, emergency contact. Do a trial visit before you leave if using a new sitter."
+    "notes": "Away 22 May - 4 Jun = 13 nights. Nothing booked as of 8 Mar 2026. DO NOT use Cat in a Flat (now Rover) again.\n\nOPTION 1 - RECOMMENDED: catsittingmanchester.co.uk\nIndependent local Manchester professional. Not a platform - direct hire.\n• Stay-N-Play visit (30 min): £14\n• 2 x daily visits: £26/day → 13 nights = £338 (10% early booking discount = ~£304)\n• Includes feeding, litter, home security check, daily text updates\nBook early - popular over bank holidays/summer.\n\nOPTION 2: Pawshake.co.uk (platform, different to Cat in a Flat)\nTop-rated Manchester sitters:\n• Helen - £12/day, ⭐⭐⭐⭐⭐ 84 reviews\n• Wing Shan - £13/day, ⭐⭐⭐⭐⭐ 47 reviews  \n• Rachel - £14/day, ⭐⭐⭐⭐⭐ 67 reviews\nNote: this IS a platform (similar model to Cat in a Flat) but different sitters and independent reviews.\n\nOPTION 3: Cattery (cats board away from home)\n• Aristocats Boarding (Worsley, M27 9GN): Licensed, 5-star, appointment only. Call 0161 794 2195. Vaccinations required. No online pricing.\n• Clarks Hill Kennels & Cattery (Whitefield, M45 7TG): Licensed. Call 0161 796 7706.\nPro: removes house access concern entirely. Con: 13 nights in unfamiliar environment is stressful for cats.\n\nWhen booked: Provide vet contact, feeding schedule, litter location, spare key."
   },
   {
     "id": "seed-010",
@@ -242,7 +242,7 @@
     "priority": "CRITICAL",
     "dueDate": "2026-04-01",
     "estimatedMinutes": 60,
-    "notes": "Arrive MCO ~20:15 local on 22 May after 9h flight. Kids will be exhausted. Embark cruise 24 May from Port Canaveral.\nSuggested plan:\n• Night 1 (22 May): Stay near Orlando International Airport or I-Drive. Avoid traffic, easy food. Options: Hyatt Regency Orlando, Marriott World Center, Universal partner hotels. Price: £100-200/night.\n• Night 2 (23 May): Move to Cocoa Beach (1h east of Orlando) - much closer to Port Canaveral, beach access for the kids, relaxed vibe. Options: Comfort Suites Cocoa Beach (great reviews, pool, near pier), Hampton Inn Cocoa Beach.\nTransport between: Rent a car at MCO (~$40-60/day, return near port area) or book Mears Connect shuttle (~$35/person, drops at hotels).\nCocoa Beach has: Ron Jon Surf Shop, beach, restaurants on the pier - nice pre-cruise afternoon."
+    "notes": "Arrive MCO 15:15 EDT on 22 May. Add ~60-90 min for US customs → out by ~17:00.\nSuggested 2-night plan:\n\nNIGHT 1 (22 May) - ORLANDO / I-DRIVE:\nKids will be tired but it's only 5pm. Stay on International Drive - loads of food/shops open late.\n• OPTION A: Rosen Inn International (7600 I-Drive) - budget-friendly, 3 pools, family room (2 double beds), kids under 17 free, Universal shuttle. Rates from ~$72/night. Book direct: roseninn7600.com or (407) 996-1600.\n• OPTION B: Rosen Inn at Pointe Orlando (9000 I-Drive) - slightly upmarket, same area, similar prices.\nFood nearby: IHOP, Denny's, Cheesecake Factory, Applebee's all within walking distance. Stock up on snacks/drinks at Walgreens for cruise.\n\nNIGHT 2 (23 May) - COCOA BEACH:\nMove 1h east to Cocoa Beach for beach, chill, and proximity to Port Canaveral (10 min to ship).\n• OPTION A: Hampton Inn Cocoa Beach (3425 N Atlantic Ave) - direct beach access, free breakfast, pool, under 5 miles to port. ~$130-219/night.\n• OPTION B: Homewood Suites Cape Canaveral (1 mile from port) - free hot breakfast, full kitchen, suite-style. ~$121-216/night.\nAfternoon: Ron Jon Surf Shop, beach, Cocoa Beach pier restaurants. Ideal cruise eve.\n\nTRANSPORT: Rent a car at MCO (~$40-60/day, return at port or Cocoa Beach area). OR Mears Connect shuttle (~$35/person, hotel drops). Car recommended - much more flexible with kids and luggage."
   },
   {
     "id": "seed-012",
@@ -351,7 +351,7 @@
     "priority": "IMPORTANT",
     "dueDate": "2026-04-15",
     "estimatedMinutes": 45,
-    "notes": "Disembark Port Canaveral morning of 31 May. MCO flight 03 Jun at 22:15. 3 nights to fill.\nRecommended base: Cocoa Beach (beach + NASA nearby + manatees possible)\n• Hilton Cocoa Beach Oceanfront: Right on the beach, pool, great for kids\n• Residence Inn Cocoa Beach: More space for family, kitchenette\n• Comfort Suites Cocoa Beach: Great value, pool, close to beach\nSuggested itinerary:\n• 31 May: Disembark, check in, beach and decompress\n• 1 Jun: Kennedy Space Center (45 min north, full day)\n• 2 Jun: Manatees (kayak or Crystal River) + Cocoa Beach + drive to MCO area for final night\n• 3 Jun: Last breakfast, airport early evening for 22:15 departure\nAlternative: 1 night Cocoa Beach then 2 nights near Universal if kids want theme park (though probably exhausted after 2 weeks away)."
+    "notes": "Disembark Port Canaveral morning of 31 May. MCO flight 3 Jun at 17:15 EDT. 3 nights to fill.\nBase: Cocoa Beach - 10 min from port, beach for kids, near KSC.\n\nOPTION A: Homewood Suites by Hilton Cape Canaveral (BEST VALUE)\n• 1 mile from Port Canaveral ✓, free hot breakfast daily, full kitchen in room, outdoor pool\n• 15 min to KSC, on the beach\n• ~$121-216/night → 3 nights ~$360-650 + taxes\n• Free cancellation usually available\n\nOPTION B: Hampton Inn Cocoa Beach (3425 N Atlantic Ave)\n• Direct beach access, free breakfast, <5 miles from port\n• ~$130-219/night → 3 nights ~$390-660 + taxes\n\nOPTION C: Courtyard Marriott Cocoa Beach Cape Canaveral\n• Oceanfront, transfers from cruise terminal available (book 72h ahead)\n• Similar price range\n\nSuggested 3-night plan:\n• 31 May: Disembark ~9am, check in, beach and decompress. Ron Jon Surf Shop.\n• 1 Jun: Kennedy Space Center full day (see seed-018). Kids will love it.\n• 2 Jun: Manatee experience (see seed-019) + Cocoa Beach + evening drive to MCO area if needed\n• 3 Jun: Breakfast, drive to MCO, airport by ~14:00 for 17:15 departure\n\nNote: MCO is ~1h from Cocoa Beach. Leave hotel by 13:30 latest on 3 Jun."
   },
   {
     "id": "seed-020",
@@ -363,7 +363,7 @@
     "owner": "RYAN",
     "priority": "CRITICAL",
     "estimatedMinutes": 20,
-    "notes": "BA 2036 departs MCO 22:15 on 3 Jun. Arrive MCO ~19:30 for international check-in. Transfer from hotel to MCO: ~45 min depending on where you're staying. Pre-book transfer or confirm Uber/Lyft availability. If staying near Cocoa Beach (1h from MCO) leave hotel by 18:00."
+    "notes": "BA 2036 departs MCO 17:15 EDT on 3 Jun. Check-in deadline 14:15 EDT. Be at MCO by ~14:00.\nIf staying near Cocoa Beach (~1h drive from MCO): leave hotel by 13:00 to be safe.\nOptions: Uber/Lyft from hotel (~$50-70 for 4 people + bags), or return rental car at MCO.\nIf using rental car: return at MCO and use shuttle to terminal. Allow 30 min for car return + shuttle."
   },
   {
     "id": "seed-031",
