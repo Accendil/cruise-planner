@@ -58,7 +58,7 @@ export function AgendaView({ entries, loading, error, onSelect }: Props) {
   const timed  = dayEntries.filter(e => e.startAt && !e.allDay);
 
   const byHour = timed.reduce<Record<number, PlannerEntry[]>>((acc, e) => {
-    const h = new Date(e.startAt!).getHours();
+    const h = new Date(e.startAt!).getUTCHours();
     (acc[h] ??= []).push(e);
     return acc;
   }, {});
