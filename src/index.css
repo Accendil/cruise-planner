@@ -66,3 +66,21 @@ body {
 .phase-FLORIDA_CRUISE       { --phase-colour: #0d9488; }
 .phase-FLORIDA_POST_CRUISE  { --phase-colour: #c2410c; }
 .phase-UK_POST_CRUISE       { --phase-colour: #64748b; }
+
+@media print {
+  /* Hide UI chrome */
+  nav,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Reset backgrounds for ink-friendliness */
+  body {
+    background: #fff !important;
+  }
+
+  /* Ensure phase cards don't split across pages */
+  .print\:break-inside-avoid {
+    break-inside: avoid;
+  }
+}
