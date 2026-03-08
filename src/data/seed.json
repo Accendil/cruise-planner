@@ -9,9 +9,10 @@
     "owner": "BOTH",
     "priority": "CRITICAL",
     "startAt": "2026-05-21T15:00:00+01:00",
-    "endAt": "2026-05-22T06:10:00+01:00",
+    "endAt": "2026-05-22T12:00:00+01:00",
     "location": "London Road, Crawley, RH10 9GY",
-    "notes": "Exact check-in/check-out to confirm. Will need to check whether hotel has parking included or at a cost for the 2 weeks we're away."
+    "bookingRef": "5926841264",
+    "notes": "Booking.com confirmation #5926841264 (PIN: 2503 - keep confidential).\nRoom: Standard Double Room with Two Double Beds. 2 adults, 2 children.\nPrice: £119.07 (paid on arrival, card ••••5027 must be presented at check-in).\n\nCheck-in: from 15:00 Thu 21 May. Check-out: by 12:00 Fri 22 May.\nFlight is at 10:40 - need to be at terminal by 07:40. Leave hotel by 07:00.\n\nBreakfast: £14.50 per person (not included - buy if you want, or grab something quick before heading to the terminal).\n\nFREE cancellation until 20 May 2026 23:59 BST. After midnight on arrival day = full £119.07 charge.\n\nPARKING: Not mentioned in the booking - ibis Styles Gatwick does have paid parking. Check whether 2-week airport parking is available here and at what cost, or whether it's cheaper to park elsewhere near Gatwick (e.g. Purple Parking, Meet & Greet). This is still outstanding."
   },
   {
     "id": "seed-002",
@@ -23,10 +24,10 @@
     "owner": "BOTH",
     "priority": "CRITICAL",
     "startAt": "2026-05-22T10:40:00+01:00",
-    "endAt": "2026-05-22T20:15:00-04:00",
+    "endAt": "2026-05-22T15:15:00-04:00",
     "location": "London LGW → Orlando MCO",
-    "bookingRef": "BA 2037",
-    "notes": "BA flies from Gatwick South Terminal. Arrive 3 hours early for international check-in. Online check-in opens 24h before - do this the night before at the hotel to save time."
+    "bookingRef": "XSGXXF",
+    "notes": "BA2037 | Booking ref XSGXXF | Booked via TravelUp (TH3343402)\nDeparts LGW South Terminal (S) at 10:40 BST. Arrives MCO Terminal C at 15:15 EDT.\nFlight duration: 9h35m. 4 seats, World Traveller (economy).\n\nCheck-in DEADLINE: 07:40 (3 hrs before). Online check-in opens 24h prior - do this the night before at the Gatwick hotel. Download boarding passes to your phone.\n\nBaggage: 1 piece per person included (check BA website for weight limit - World Traveller is typically 23kg). Any extra bags/oversized must be pre-purchased.\n\nPassengers: Mr Ryan, Mrs Zoe, Master Arthur, Miss Dorothy Tracey\nE-ticket numbers: Ryan 1252223588713, Zoe 1252223588711, Arthur 1252223588712, Dorothy 1252223588710"
   },
   {
     "id": "seed-003",
@@ -40,7 +41,7 @@
     "startAt": "2026-05-24T00:00:00-04:00",
     "endAt": "2026-05-31T00:00:00-04:00",
     "bookingRef": "8332287",
-    "notes": "7 Night Eastern Caribbean & Perfect Day. Stateroom 8610 - D1. Dining 17:00. Embarkation from Port Canaveral, FL."
+    "notes": "7 Night Eastern Caribbean & Perfect Day. Stateroom 8610 - D1 (Ocean View Balcony). Guests: Ryan, Zoe, Arthur, Dorothy Tracey.\n\nDINING: Currently on waitlist for 17:00 Traditional Dining. After paying the balance, log into Manage My Booking and confirm/change dining preference - options are Traditional Early (17:00), Traditional Late (20:00), or My Time Dining (flexible, book slots as you go). My Time Dining is easier with kids.\n\nCANCELLATION SCHEDULE:\n- Before final payment due: no charge (excl. NRD deposit)\n- From 16 Mar 2026 (69 days out): 50% penalty per guest\n- From 10 Apr 2026 (44 days out): 75% penalty per guest\n- From 10 May 2026 (14 days out): 100% non-refundable\n\nCROWN & ANCHOR: No loyalty numbers on the booking - register all four guests for free at royalcaribbean.com/loyalty before sailing to start earning points."
   },
   {
     "id": "seed-004",
@@ -51,11 +52,11 @@
     "confidence": "CONFIRMED",
     "owner": "BOTH",
     "priority": "CRITICAL",
-    "startAt": "2026-06-03T22:15:00-04:00",
+    "startAt": "2026-06-03T17:15:00-04:00",
     "endAt": "2026-06-04T06:45:00+01:00",
     "location": "Orlando MCO → London LGW",
-    "bookingRef": "BA 2036",
-    "notes": "Late departure 22:15. Get to MCO ~19:30 (allow 2h45 for international). Arrive Gatwick 06:45 on 4 Jun - get car and drive to Manchester."
+    "bookingRef": "XSGXXF",
+    "notes": "BA2036 | Booking ref XSGXXF | Booked via TravelUp (TH3343402)\nDeparts MCO Terminal C at 17:15 EDT. Arrives LGW South Terminal (S) at 06:45 BST on 4 Jun.\nFlight duration: 8h30m. 4 seats, World/Euro Traveller (economy).\n\nCheck-in DEADLINE: 14:15 EDT (3 hrs before). Be at MCO by ~14:00. Get to airport ~14:00 - it's about 55-60 mins drive from International Drive area.\n\nBaggage: 1 piece per person included.\n\nArrive Gatwick 06:45 on 4 Jun. Collect car from long-stay and drive back to Manchester - factor in ~4.5h drive. You'll be exhausted after a red-eye - plan a recovery day."
   },
   {
     "id": "seed-005",
@@ -66,9 +67,9 @@
     "confidence": "CONFIRMED",
     "owner": "RYAN",
     "priority": "CRITICAL",
-    "dueDate": "2026-03-13",
+    "dueDate": "2026-03-15",
     "estimatedMinutes": 20,
-    "notes": "Reservation 8332287. Due by 13 March 2026. Pay via Manage My Booking at royalcaribbean.com. Log in with booking ref + lead passenger details."
+    "notes": "Reservation 8332287. Balance confirmed £4,647.68 (total £5,247.68 minus £600 deposit).\n\nRC email says DUE DATE: 15 MAR 2026. Pay via royalcaribbean.com → Manage My Booking → booking ref 8332287. Log in with booking ref + lead guest details.\n\nURGENT: 50% cancellation penalty (£2,623) kicks in 16 Mar 2026 - the day after the due date. Don't leave it to the last minute in case of payment issues."
   },
   {
     "id": "seed-006",
@@ -157,16 +158,16 @@
   },
   {
     "id": "seed-023",
-    "title": "Get travel insurance for the whole trip",
+    "title": "Confirm travel insurance covers cruise + USA",
     "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
-    "status": "TO_BE_RESEARCHED",
+    "status": "WAITING",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "RYAN",
     "priority": "CRITICAL",
-    "dueDate": "2026-04-15",
-    "estimatedMinutes": 60,
-    "notes": "USA medical costs are enormous - travel insurance is essential.\nWhat the policy MUST cover:\n• Medical expenses: minimum £2M for USA\n• Explicitly covers CRUISES (some policies exclude)\n• Water sports / snorkelling\n• Trip cancellation and curtailment (buy now so cancellation cover applies from today)\n• Emergency repatriation\n• Baggage and personal items\nWhere to look: comparethemarket.com, moneysupermarket.com.\nFor cruise-specific cover: Staysure (staysure.co.uk) and AllClear are well-regarded.\nGet a family policy - usually much cheaper than 4 individual policies.\nCheck if you have existing cover via credit card (Amex, some Visa/Mastercard gold cards include travel insurance)."
+    "dueDate": "2026-03-15",
+    "estimatedMinutes": 30,
+    "notes": "Policy: Nationwide FlexPlus (underwritten by Aviva). Family cover as part of the account.\n\nQuery sent to Nationwide on 7 Mar 2026 (cc'd Zoe). Waiting for reply - expect Monday 9 Mar at earliest.\n\nKey questions pending written confirmation:\n• Does standard FlexPlus cover the cruise as-is, or is the Cruise Upgrade required?\n• Covered if FCDO later advises against travel to USA/Florida?\n• Covered if US government closes border or suspends UK entry after booking?\n• Covered for conflict/airspace closure/government-action disruption?\n• Do war/hostilities/sanctions exclusions override any of the above?\n• Is the standard cancellation limit sufficient for a ~£5,300 trip?\n\nNext action: Wait for reply. If cruise upgrade is needed - add it. If geopolitical exclusions are too broad, consider a top-up or separate policy.\n\nNote: Balance due 15 Mar - ideally have insurance confirmed before paying the full balance."
   },
   {
     "id": "seed-024",
@@ -186,25 +187,25 @@
     "title": "Royal Caribbean app + online check-in for all 4",
     "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
-    "status": "TO_BE_RESEARCHED",
+    "status": "READY",
     "confidence": "CONFIRMED",
     "owner": "RYAN",
     "priority": "IMPORTANT",
-    "dueDate": "2026-03-15",
+    "dueDate": "2026-03-20",
     "estimatedMinutes": 45,
-    "notes": "Online check-in for booking 8332287 opens ~75 days before sailing. That's around 8 March 2026 - check NOW at royalcaribbean.com.\nYou need: passport details for all 4, a headshot photo per person (taken on phone), credit/debit card for onboard account (all ship spend is charged to stateroom SeaPass card, settled at end of trip), emergency contact.\nWhile in the app also:\n• Pick your arrival time slot (choose earliest ~10:30am - beats the queues)\n• Browse and pre-book shows, specialty dining, spa\n• Check your itinerary for exact ports of call\n• Register for Crown & Anchor Society loyalty programme (free - worth it for future cruises)"
+    "notes": "CHECK-IN IS OPEN NOW (8 March 2026 = exactly 75 days before sailing). Do this ASAP - earlier slots fill up fast.\n\nGo to royalcaribbean.com → Manage My Booking → 8332287.\n\nYou need:\n• Passport details for all 4 guests\n• A headshot photo per person (phone selfie is fine, plain background)\n• Credit/debit card for onboard account (SeaPass - all spend is charged to cabin, settled at end)\n• Emergency contact\n\nWhile in the app also:\n• Pick arrival time slot - choose the EARLIEST available (~10:30am, beats the queues)\n• SORT DINING: currently on waitlist for 17:00 Traditional. Either confirm you want that slot or switch to My Time Dining (flexible, easier with kids - book dinner slots day by day)\n• Pre-book shows (Star of the Seas has big production shows - book early)\n• Register for Crown & Anchor Society (free, starts earning points from this cruise)\n• Check exact ports of call on your itinerary"
   },
   {
     "id": "seed-026",
-    "title": "Research and decide cruise drinks / dining packages",
+    "title": "Cruise drinks / WiFi packages - PURCHASED",
     "phase": "UK_PRE_FLIGHT",
     "type": "RESEARCH",
-    "status": "TO_BE_RESEARCHED",
-    "confidence": "IDEA",
+    "status": "DONE",
+    "confidence": "CONFIRMED",
     "owner": "BOTH",
     "priority": "IMPORTANT",
     "estimatedMinutes": 30,
-    "notes": "Pre-purchase via Royal Caribbean app or website is 20-30% cheaper than buying onboard.\nMain packages:\n• Deluxe Beverage Package (~$80-100/pp/day): Unlimited cocktails, beer, wine, spirits, coffees, bottled water, soft drinks. Both adults must buy the same tier if purchasing alcohol package.\n• Refreshment Package (~$35/pp/day): All non-alcoholic - specialty coffees, juices, mocktails, bottled water. Good for kids.\n• Classic Soda (~$12/pp/day): Standard Coke products + souvenir cup.\nNote: water, iced tea and lemonade are always free in the Windjammer and Main Dining Room.\nFor 2 adults on a 7-night trip: Deluxe at $90/pp/day = ~$1,260 (~£1,000). Worth calculating vs estimated actual consumption. Also check what's included in your stateroom category."
+    "notes": "Already purchased (Order #174242289, 30 Nov 2025, £663.67 on Mastercard 5027):\n\n• VOOM Surf + Stream Voyage Package (4 devices) - £262.36 - WiFi for the whole 7 nights, all devices covered\n• Refreshment Package x2 (Ryan + Zoe) - £344.54 - Non-alcoholic: specialty coffees, juices, mocktails, bottled water\n• Classic Soda Package x1 (Arthur) - £56.77 - Standard soft drinks + souvenir cup\n\nDorothy: no package purchased - she may be young enough not to need one. Soft drinks, water, lemonade and iced tea are always free in the Windjammer buffet and Main Dining Room.\n\nNo specialty dining package purchased - can book individual specialty restaurants onboard (Wonderland, Hooked, etc.) or through the app once check-in opens."
   },
   {
     "id": "seed-027",
@@ -216,7 +217,7 @@
     "owner": "BOTH",
     "priority": "IMPORTANT",
     "estimatedMinutes": 20,
-    "notes": "Options:\n1. eSIM (Recommended): Buy on Airalo.com (~$15-20 for 10GB/10 days on AT&T network). Purchase and install before you travel, activates on landing. No physical SIM swap needed. Works on most modern phones.\n2. Physical US SIM: AT&T or T-Mobile starter kit from Walmart/Target (~$30, unlimited for 10 days). Decent coverage everywhere including Florida.\n3. UK roaming: Three includes USA on their Go Roam plans at no extra cost. O2/EE typically charge £2-6/day for roaming - check your plan.\nNote: Cruise ship WiFi is expensive (~$20-30/day per device) and slow. Buy their WiFi package at departure if you need connectivity at sea. At port you can usually get free WiFi in cafes/shops."
+    "notes": "SHIP WIFI ALREADY SORTED: VOOM Surf + Stream Voyage Package purchased (4 devices, full voyage) - no need to buy onboard.\n\nStill need: US data for Florida days before/after cruise (22-24 May and 31 May - 3 Jun = ~5 days on land).\n\nOptions:\n1. eSIM (Recommended): Buy on Airalo.com (~$15-20 for 10GB/10 days on AT&T network). Install before you travel, activates on landing. No physical SIM swap.\n2. Physical US SIM: AT&T or T-Mobile starter kit from Walmart/Target on arrival (~$30, unlimited 10 days).\n3. UK roaming: Three includes USA on Go Roam at no extra cost. O2/EE charge ~£2-6/day - check your plan first.\n\nAt port stops you can usually get free WiFi in cafes/shops and use the ship WiFi package near port."
   },
   {
     "id": "seed-028",
