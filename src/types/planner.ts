@@ -34,6 +34,7 @@ export interface PlannerEntry {
   bookingRef?: string;
   location?: string;
   notes?: string;
+  estimatedMinutes?: number;
 }
 
 export const PHASE_LABELS: Record<TripPhase, string> = {

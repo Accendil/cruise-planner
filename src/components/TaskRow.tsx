@@ -8,6 +8,13 @@ const OWNER_STYLE: Record<string, { bg: string; color: string }> = {
   UNASSIGNED: { bg: '#d4cfc6', color: '#6b6560' },
 };
 
+function fmtEst(mins: number): string {
+  const h = Math.floor(mins / 60);
+  const m = mins % 60;
+  if (h === 0) return `${m}m`;
+  return m > 0 ? `${h}h ${m}m` : `${h}h`;
+}
+
 const TYPE_ICONS: Record<string, string> = {
   TASK: '✓', TRAVEL: '✈', BOOKING: '📋', ITINERARY: '🗓',
   RESEARCH: '🔍', DOCUMENT: '📄', NOTE: '📝', BUFFER: '⏱',
@@ -51,6 +58,13 @@ export function TaskRow({ entry, onStatusChange, onClick }: Props) {
       >
         {entry.title}
       </span>
+
+      {/* Estimated time */}
+      {entry.estimatedMinutes != null && (
+        <span className="text-xs shrink-0 hidden sm:block" style={{ color: '#c0bbb2' }}>
+          {fmtEst(entry.estimatedMinutes)}
+        </span>
+      )}
 
       {/* Due date */}
       {entry.dueDate && (

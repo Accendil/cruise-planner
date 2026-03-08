@@ -11,7 +11,7 @@
     "startAt": "2026-05-21T15:00:00+01:00",
     "endAt": "2026-05-22T06:10:00+01:00",
     "location": "London Road, Crawley, RH10 9GY",
-    "notes": "Exact check-in/check-out to confirm."
+    "notes": "Exact check-in/check-out to confirm. Will need to check whether hotel has parking included or at a cost for the 2 weeks we're away."
   },
   {
     "id": "seed-002",
@@ -25,7 +25,8 @@
     "startAt": "2026-05-22T10:40:00+01:00",
     "endAt": "2026-05-22T20:15:00-04:00",
     "location": "London LGW → Orlando MCO",
-    "bookingRef": "BA 2037"
+    "bookingRef": "BA 2037",
+    "notes": "BA flies from Gatwick South Terminal. Arrive 3 hours early for international check-in. Online check-in opens 24h before - do this the night before at the hotel to save time."
   },
   {
     "id": "seed-003",
@@ -39,11 +40,11 @@
     "startAt": "2026-05-24T00:00:00-04:00",
     "endAt": "2026-05-31T00:00:00-04:00",
     "bookingRef": "8332287",
-    "notes": "7 Night Eastern Caribbean & Perfect Day. Stateroom 8610 - D1. Dining 17:00."
+    "notes": "7 Night Eastern Caribbean & Perfect Day. Stateroom 8610 - D1. Dining 17:00. Embarkation from Port Canaveral, FL."
   },
   {
     "id": "seed-004",
-    "title": "Flight to London (BA 2036)",
+    "title": "Flight home (BA 2036)",
     "phase": "UK_POST_CRUISE",
     "type": "TRAVEL",
     "status": "BOOKED",
@@ -53,7 +54,8 @@
     "startAt": "2026-06-03T22:15:00-04:00",
     "endAt": "2026-06-04T06:45:00+01:00",
     "location": "Orlando MCO → London LGW",
-    "bookingRef": "BA 2036"
+    "bookingRef": "BA 2036",
+    "notes": "Late departure 22:15. Get to MCO ~19:30 (allow 2h45 for international). Arrive Gatwick 06:45 on 4 Jun - get car and drive to Manchester."
   },
   {
     "id": "seed-005",
@@ -64,8 +66,9 @@
     "confidence": "CONFIRMED",
     "owner": "RYAN",
     "priority": "CRITICAL",
-    "dueDate": "2026-03-15",
-    "notes": "Reservation 8332287. Due by 15 March 2026."
+    "dueDate": "2026-03-13",
+    "estimatedMinutes": 20,
+    "notes": "Reservation 8332287. Due by 13 March 2026. Pay via Manage My Booking at royalcaribbean.com. Log in with booking ref + lead passenger details."
   },
   {
     "id": "seed-006",
@@ -75,87 +78,206 @@
     "status": "INBOX",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "BOTH",
-    "priority": "CRITICAL"
+    "priority": "CRITICAL",
+    "estimatedMinutes": 60,
+    "notes": "Checklist of what to have on travel day:\n• All 4 passports (physically)\n• ESTA approval numbers (screenshot on phone + printed)\n• Cruise booking confirmation (ref 8332287) - download from Royal Caribbean app\n• Flight confirmations BA 2037 + BA 2036 (email or app)\n• Hotel booking: ibis Styles Gatwick + Florida hotels\n• Travel insurance policy number + 24h emergency number\n• Credit card with no FX fees (for ship account + spending)\n• USD cash ~£150-200 in dollars\nPrint a summary sheet with all refs. Email it to yourself so it's in your inbox even offline."
   },
   {
     "id": "seed-007",
-    "title": "Confirm how bags get to the plane",
+    "title": "Check BA baggage allowance + buy extra if needed",
     "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
-    "status": "INBOX",
+    "status": "TO_BE_RESEARCHED",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "RYAN",
-    "priority": "IMPORTANT"
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 20,
+    "notes": "BA Economy standard: 1 x 23kg hold bag per person. With 4 passengers that's 4 x 23kg included (total 92kg).\nFor 2 adults + 2 kids (assuming kids are on full fare tickets): likely 4 bags included.\nIf you want to bring more bags or heavier: pre-purchase extra baggage at ba.com/managemybooking - much cheaper than at airport (~£40-60 per extra bag online vs £80+ at check-in).\nNote: cruises generate a lot of washing - pack light on the way out, buy a few things there."
   },
   {
     "id": "seed-008",
-    "title": "Decide transport to airport (drive/park/train/taxi)",
+    "title": "Sort transport to Gatwick (drive / roof box / train)",
     "phase": "UK_PRE_FLIGHT",
     "type": "RESEARCH",
     "status": "TO_BE_RESEARCHED",
     "confidence": "IDEA",
     "owner": "BOTH",
-    "priority": "IMPORTANT"
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 30,
+    "notes": "See seed-031 for detailed luggage/roof box analysis.\nSince you're already staying at ibis Styles Gatwick the night before, driving makes most sense - leaves car near airport and avoids morning stress.\nOptions:\n1. Drive + park near hotel: Book hotel parking if available, or Long Stay car park at LGW (pre-book APH.com ~£80-100 for 2 weeks). Shuttle to terminal included.\n2. Drive to hotel, leave car in hotel car park for 13 nights: Call ibis Styles directly - some airport hotels offer park-and-fly packages.\n3. Train: Manchester Piccadilly → London Bridge/Thameslink → Gatwick (or Gatwick Express from Victoria). ~2h30, ~£50-80pp. Doable with trolleys."
   },
   {
     "id": "seed-009",
-    "title": "Sort cat sitter",
+    "title": "Sort cat sitter (22 May - 4 Jun)",
     "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
     "status": "INBOX",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "BOTH",
-    "priority": "CRITICAL"
+    "priority": "CRITICAL",
+    "estimatedMinutes": 60,
+    "notes": "Away 22 May - 4 Jun = 13 nights. Book early - late May is a popular period.\nOptions:\n• Family or trusted friend (ideal)\n• Pawshake.co.uk - local sitters with reviews, insured\n• TrustedHousesitters.com - house sitter stays in your home (free pet care in exchange for accommodation)\nWhen booked: Leave vet contact + number, feeding schedule, location of food/litter, spare key, emergency contact. Do a trial visit before you leave if using a new sitter."
   },
   {
     "id": "seed-010",
-    "title": "Confirm exact airport terminal and check-in assumptions",
+    "title": "Confirm Gatwick terminal + check-in plan",
     "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
     "status": "TO_BE_RESEARCHED",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "RYAN",
-    "priority": "CRITICAL"
+    "priority": "CRITICAL",
+    "estimatedMinutes": 15,
+    "notes": "BA 2037 departs Gatwick. British Airways at Gatwick uses South Terminal.\nPlan: ibis Styles is a 3-min walk from South Terminal. Leave hotel 07:30 for 10:40 departure.\nDo online check-in the night before at ba.com - saves time at airport, just drop bags.\nWith kids: use dedicated family lane at security if available, or get there early.\nCheck if BA 2037 has allocated seats - if not, choose seats at online check-in."
   },
   {
     "id": "seed-011",
-    "title": "Create travel day detailed itinerary",
+    "title": "Create travel day timeline",
     "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
     "status": "INBOX",
     "confidence": "IDEA",
     "owner": "RYAN",
-    "priority": "IMPORTANT"
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 45,
+    "notes": "Write a minute-by-minute schedule for 22 May covering: leave Manchester, arrive Gatwick ibis, morning breakfast, check-in, security, departure. Include buffer time. Share with Zoe so you're both on the same page. Suggested timing: leave Manchester 09:00 (3h drive), ibis check-in 12:30, relax, dinner near hotel, early night. Morning: breakfast 07:00, leave for terminal 07:30."
   },
   {
-    "id": "seed-012",
-    "title": "Confirm post-flight plan and timings",
-    "phase": "FLORIDA_PRE_CRUISE",
+    "id": "seed-022",
+    "title": "Apply for ESTA (US entry visa waiver) - all 4",
+    "phase": "UK_PRE_FLIGHT",
     "type": "TASK",
     "status": "TO_BE_RESEARCHED",
     "confidence": "NEEDS_CONFIRMING",
-    "owner": "BOTH",
-    "priority": "CRITICAL"
+    "owner": "RYAN",
+    "priority": "CRITICAL",
+    "dueDate": "2026-04-01",
+    "estimatedMinutes": 45,
+    "notes": "UK citizens need ESTA to enter the USA - it is mandatory.\nApply at: esta.cbp.dhs.gov (the official US government site - avoid third party sites charging £50+)\nCost: $21 per person ($84 for 4). Valid for 2 years or until passport expires.\nUsually approved instantly but can take up to 72 hours - apply well before travel.\nYou need per person: passport number + expiry date, country of birth, UK address, travel itinerary details (can use hotel/cruise ship), emergency contact in USA (use hotel address).\nSave the approval number for each person - you'll need it at check-in.\nImportant: if anyone renews their passport before the trip, they need a new ESTA."
   },
   {
-    "id": "seed-013",
-    "title": "Confirm transfer from Orlando to port / accommodation",
-    "phase": "FLORIDA_PRE_CRUISE",
+    "id": "seed-023",
+    "title": "Get travel insurance for the whole trip",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "CRITICAL",
+    "dueDate": "2026-04-15",
+    "estimatedMinutes": 60,
+    "notes": "USA medical costs are enormous - travel insurance is essential.\nWhat the policy MUST cover:\n• Medical expenses: minimum £2M for USA\n• Explicitly covers CRUISES (some policies exclude)\n• Water sports / snorkelling\n• Trip cancellation and curtailment (buy now so cancellation cover applies from today)\n• Emergency repatriation\n• Baggage and personal items\nWhere to look: comparethemarket.com, moneysupermarket.com.\nFor cruise-specific cover: Staysure (staysure.co.uk) and AllClear are well-regarded.\nGet a family policy - usually much cheaper than 4 individual policies.\nCheck if you have existing cover via credit card (Amex, some Visa/Mastercard gold cards include travel insurance)."
+  },
+  {
+    "id": "seed-024",
+    "title": "Check all 4 passports are valid",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "BOTH",
+    "priority": "CRITICAL",
+    "dueDate": "2026-03-20",
+    "estimatedMinutes": 15,
+    "notes": "USA requirement: passport must be valid for the full duration of stay. Airlines require at least 6 months validity beyond travel date. Return date is 4 Jun 2026, so all passports should be valid until at least Dec 2026.\nKids' passports expire after 5 years (adults 10 years).\nIf any need renewing: apply NOW. HMPO currently taking 3-5 weeks for standard service (gov.uk/renew-adult-passport). Online renewal is faster than postal.\nNote: if a passport is renewed, the old ESTA becomes invalid and a new ESTA must be applied for."
+  },
+  {
+    "id": "seed-025",
+    "title": "Royal Caribbean app + online check-in for all 4",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "CONFIRMED",
+    "owner": "RYAN",
+    "priority": "IMPORTANT",
+    "dueDate": "2026-03-15",
+    "estimatedMinutes": 45,
+    "notes": "Online check-in for booking 8332287 opens ~75 days before sailing. That's around 8 March 2026 - check NOW at royalcaribbean.com.\nYou need: passport details for all 4, a headshot photo per person (taken on phone), credit/debit card for onboard account (all ship spend is charged to stateroom SeaPass card, settled at end of trip), emergency contact.\nWhile in the app also:\n• Pick your arrival time slot (choose earliest ~10:30am - beats the queues)\n• Browse and pre-book shows, specialty dining, spa\n• Check your itinerary for exact ports of call\n• Register for Crown & Anchor Society loyalty programme (free - worth it for future cruises)"
+  },
+  {
+    "id": "seed-026",
+    "title": "Research and decide cruise drinks / dining packages",
+    "phase": "UK_PRE_FLIGHT",
     "type": "RESEARCH",
     "status": "TO_BE_RESEARCHED",
     "confidence": "IDEA",
     "owner": "BOTH",
-    "priority": "CRITICAL"
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 30,
+    "notes": "Pre-purchase via Royal Caribbean app or website is 20-30% cheaper than buying onboard.\nMain packages:\n• Deluxe Beverage Package (~$80-100/pp/day): Unlimited cocktails, beer, wine, spirits, coffees, bottled water, soft drinks. Both adults must buy the same tier if purchasing alcohol package.\n• Refreshment Package (~$35/pp/day): All non-alcoholic - specialty coffees, juices, mocktails, bottled water. Good for kids.\n• Classic Soda (~$12/pp/day): Standard Coke products + souvenir cup.\nNote: water, iced tea and lemonade are always free in the Windjammer and Main Dining Room.\nFor 2 adults on a 7-night trip: Deluxe at $90/pp/day = ~$1,260 (~£1,000). Worth calculating vs estimated actual consumption. Also check what's included in your stateroom category."
+  },
+  {
+    "id": "seed-027",
+    "title": "Sort phones / SIM cards for USA",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 20,
+    "notes": "Options:\n1. eSIM (Recommended): Buy on Airalo.com (~$15-20 for 10GB/10 days on AT&T network). Purchase and install before you travel, activates on landing. No physical SIM swap needed. Works on most modern phones.\n2. Physical US SIM: AT&T or T-Mobile starter kit from Walmart/Target (~$30, unlimited for 10 days). Decent coverage everywhere including Florida.\n3. UK roaming: Three includes USA on their Go Roam plans at no extra cost. O2/EE typically charge £2-6/day for roaming - check your plan.\nNote: Cruise ship WiFi is expensive (~$20-30/day per device) and slow. Buy their WiFi package at departure if you need connectivity at sea. At port you can usually get free WiFi in cafes/shops."
+  },
+  {
+    "id": "seed-028",
+    "title": "Get no-FX-fee cards + USD cash",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 20,
+    "notes": "USA is card-everywhere but your standard debit/credit card charges ~3% foreign transaction fee - adds up.\nGet at least one no-FX card:\n• Starling Bank (free current account, no FX fees, instant top-up via app) - best all-rounder, open online in 10 mins\n• Halifax Clarity credit card (no FX fees, good for purchases + ATM)\n• Chase UK debit card (no FX fees, 1% cashback)\n• Revolut (free tier has limits, paid tier is better)\nCash: Get ~$200 USD total for the trip. Used for: taxi tips, beach bars at ports, small purchases ashore. Exchange at Post Office (best rates) or use Starling/Revolut ATM in USA.\nCruise ship account: All onboard spend (drinks, spa, excursions not pre-booked, arcade) runs on your stateroom SeaPass card and is charged to the credit card you register at check-in."
+  },
+  {
+    "id": "seed-029",
+    "title": "Book Florida accommodation - nights 1 and 2 (22-24 May)",
+    "phase": "FLORIDA_PRE_CRUISE",
+    "type": "BOOKING",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "CRITICAL",
+    "dueDate": "2026-04-01",
+    "estimatedMinutes": 60,
+    "notes": "Arrive MCO ~20:15 local on 22 May after 9h flight. Kids will be exhausted. Embark cruise 24 May from Port Canaveral.\nSuggested plan:\n• Night 1 (22 May): Stay near Orlando International Airport or I-Drive. Avoid traffic, easy food. Options: Hyatt Regency Orlando, Marriott World Center, Universal partner hotels. Price: £100-200/night.\n• Night 2 (23 May): Move to Cocoa Beach (1h east of Orlando) - much closer to Port Canaveral, beach access for the kids, relaxed vibe. Options: Comfort Suites Cocoa Beach (great reviews, pool, near pier), Hampton Inn Cocoa Beach.\nTransport between: Rent a car at MCO (~$40-60/day, return near port area) or book Mears Connect shuttle (~$35/person, drops at hotels).\nCocoa Beach has: Ron Jon Surf Shop, beach, restaurants on the pier - nice pre-cruise afternoon."
+  },
+  {
+    "id": "seed-012",
+    "title": "Confirm post-landing plan and timings (22 May)",
+    "phase": "FLORIDA_PRE_CRUISE",
+    "type": "TASK",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "BOTH",
+    "priority": "CRITICAL",
+    "estimatedMinutes": 30,
+    "notes": "Land MCO 20:15 local. Add ~60-90 min for customs and baggage (US customs can be slow). Out of airport by ~22:00.\nOptions from MCO:\n1. Pre-booked transfer (Mears Connect / Sunshine Flyer): Book at mearsconnect.com ~$35/person, shuttles run until late. Book in advance.\n2. Uber/Lyft: ~£30-40 for 4 people + bags to nearby hotel. Quickest option.\nFirst night priority: get kids fed and to bed. Hotel near I-Drive has loads of food options open late. Stock up on snacks/drinks for the kids at a nearby Walgreens/Target the next morning (vastly cheaper than ship prices)."
+  },
+  {
+    "id": "seed-013",
+    "title": "Book transfer or car for Orlando → Port Canaveral",
+    "phase": "FLORIDA_PRE_CRUISE",
+    "type": "BOOKING",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "BOTH",
+    "priority": "CRITICAL",
+    "estimatedMinutes": 30,
+    "notes": "Port Canaveral is 1 hour east of Orlando. Options:\n1. Royal Caribbean shuttle: Can book via Manage My Booking or RC app. ~$35/person from MCO. Convenient but can be slow loading everyone.\n2. Rental car: Rent at MCO, drive to Cocoa Beach night before, return at a rental near port or leave at hotel. Enterprise, Hertz, Avis all at MCO. Gives flexibility for 22-23 May too.\n3. Uber/Lyft: ~$80-100 for 4 people + luggage from Orlando area.\nIf staying in Cocoa Beach night 2 (recommended): walk/short Uber to cruise terminal morning of 24 May."
   },
   {
     "id": "seed-014",
-    "title": "Confirm cruise embarkation timing",
+    "title": "Confirm embarkation timing and boarding process",
     "phase": "FLORIDA_PRE_CRUISE",
     "type": "TASK",
     "status": "TO_BE_RESEARCHED",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "RYAN",
-    "priority": "CRITICAL"
+    "priority": "CRITICAL",
+    "estimatedMinutes": 15,
+    "notes": "Royal Caribbean embarkation: Port Canaveral, FL. When doing online check-in, pick the earliest arrival slot (~10:30-11:00am).\nProcess: Arrive at port, porters take your bags (tip $1-2/bag), proceed to check-in, board when called by arrival slot. Ship does not depart until ~4-5pm - you can board and explore from noon.\nLunch in Windjammer buffet is served from the moment you board - great first meal included.\nNote: Only carry-on bags come aboard with you immediately. Checked bags delivered to stateroom by late afternoon."
   },
   {
     "id": "seed-015",
@@ -165,37 +287,45 @@
     "status": "TO_BE_RESEARCHED",
     "confidence": "IDEA",
     "owner": "BOTH",
-    "priority": "IMPORTANT"
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 60,
+    "notes": "Options depend on your exact port itinerary (check RC app once checked in).\nTypical Eastern Caribbean ports from Port Canaveral:\n• Perfect Day at CocoCay (Royal Caribbean private island - almost certain): Incredible snorkelling at Snorkel Beach. Pre-book Coco Beach Club ($109+pp) for reserved sunbeds + food. Water park ($40-80pp extra). Pigs? Not here - that's Exuma, Bahamas.\n• Nassau, Bahamas: Blue Lagoon Island - swim with dolphins ($130-180pp), sea lion encounter. Or Atlantis resort day pass ($150pp) for beach + water slides + aquarium.\n• St. Thomas USVI (if visiting): Coral World Ocean Park - sea turtle snorkel encounter ($99pp, 20 min, supervised). Highly rated for kids.\n• All ports: Book RC's official excursions for simplicity, or use Viator for independent operators (usually cheaper)."
   },
   {
     "id": "seed-016",
-    "title": "Research themed nights / dress code",
+    "title": "Look up themed nights + dress code on ship",
     "phase": "FLORIDA_CRUISE",
     "type": "RESEARCH",
     "status": "TO_BE_RESEARCHED",
     "confidence": "IDEA",
     "owner": "BOTH",
-    "priority": "NICE_TO_HAVE"
+    "priority": "NICE_TO_HAVE",
+    "estimatedMinutes": 20,
+    "notes": "Royal Caribbean 7-night cruises typically have 2 formal nights in the Main Dining Room (usually nights 2 and 6). Formal = smart casual minimum, cocktail attire is the vibe (blazer or nice dress). Casual alternative venues (Windjammer etc.) are always open if you don't want to dress up.\nStar of the Seas is a new ship - themed evenings vary. Common RC themes: 70s night, tropical/white party, karaoke, trivia, movie nights by the pool.\nPack: 1 smart outfit per person for formal night. The rest is casual/beachwear. Don't overpack - cruise ships have laundry facilities (paid) and shops onboard if you've forgotten something."
   },
   {
     "id": "seed-017",
-    "title": "Decide beaches / beach clubs",
+    "title": "Decide beaches and port activities",
     "phase": "FLORIDA_CRUISE",
     "type": "RESEARCH",
     "status": "TO_BE_RESEARCHED",
     "confidence": "IDEA",
     "owner": "BOTH",
-    "priority": "NICE_TO_HAVE"
+    "priority": "NICE_TO_HAVE",
+    "estimatedMinutes": 60,
+    "notes": "Beach options by port:\n• CocoCay (private island): Beach access is free and included with cruise. Beautiful clear water. Upgrade: Coco Beach Club ($109+pp includes sunbeds, waiter service, pool and food) - worth it for a relaxed family day. Thrill Water Park ($40-80pp) if kids are up for it.\n• Nassau: Paradise Beach ($5 entry + chair hire), or Junkanoo Beach (free, lively), or Atlantis day pass ($150pp) includes water park + aquarium. Atlantis is pricey but impressive.\n• St. Thomas (if visiting): Magens Bay ($5 entry) is genuinely one of the most beautiful beaches in the world. Calm water, shade. Taxi from port ~$10 each way.\n• All ports: Don't feel obliged to book everything in advance. Arriving at port with just a destination in mind and exploring is perfectly fine. Check 'back on ship by' time (usually 30-45 min before departure)."
   },
   {
     "id": "seed-018",
-    "title": "Research NASA visit options",
+    "title": "Plan Kennedy Space Center visit",
     "phase": "FLORIDA_POST_CRUISE",
     "type": "RESEARCH",
     "status": "TO_BE_RESEARCHED",
     "confidence": "IDEA",
     "owner": "BOTH",
-    "priority": "IMPORTANT"
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 45,
+    "notes": "Kennedy Space Center Visitor Complex is genuinely exceptional.\n• Location: Merritt Island, Titusville FL - 45 min north of Cocoa Beach\n• Tickets: ~$75/adult, ~$55/child 3-11. Book online at kennedyspacecenter.com (often cheaper + no queue)\n• Allow 3-4 hours minimum, could easily spend a full day\n• Don't miss: Space Shuttle Atlantis exhibit (stunning - the shuttle is suspended at launch angle, kid and adult-friendly), Heroes & Legends, Rocket Garden, Exploration Space\n• Bus tour to LC-39 Observation Gantry (launch pad area) is included - brings it to life\n• Check for live launches at spaceflightnow.com - if a rocket launch is scheduled during your dates it is an utterly unforgettable experience. Check dates as soon as you know your post-cruise schedule."
   },
   {
     "id": "seed-019",
@@ -205,26 +335,69 @@
     "status": "TO_BE_RESEARCHED",
     "confidence": "IDEA",
     "owner": "BOTH",
-    "priority": "NICE_TO_HAVE"
+    "priority": "NICE_TO_HAVE",
+    "estimatedMinutes": 30,
+    "notes": "Best options near Cocoa Beach / Port Canaveral:\n• Indian River Lagoon (right by Cocoa Beach): Manatees are frequently spotted from bridges and on kayak tours. Try Cocoa Beach Kayaking (~$45/half day) - often sees manatees in the lagoon. No guarantee but a lovely outing.\n• Titusville Manatee Viewing Area: Free viewing from walkways near the power plant warm water outflows. Best Nov-Mar but June sightings happen. 45 min from Cocoa Beach.\n• Crystal River FL (90 min north): The #1 place in the USA to swim with wild manatees. Best Nov-Mar as they concentrate in warm springs; June they spread out in the river system but dedicated boat tours still find them. River Ventures (riverventures.com) ~$55/pp, kids half price. 3h round trip from Cocoa Beach - possible as a long day trip."
+  },
+  {
+    "id": "seed-030",
+    "title": "Book post-cruise accommodation (31 May - 3 Jun)",
+    "phase": "FLORIDA_POST_CRUISE",
+    "type": "BOOKING",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "NEEDS_CONFIRMING",
+    "owner": "RYAN",
+    "priority": "IMPORTANT",
+    "dueDate": "2026-04-15",
+    "estimatedMinutes": 45,
+    "notes": "Disembark Port Canaveral morning of 31 May. MCO flight 03 Jun at 22:15. 3 nights to fill.\nRecommended base: Cocoa Beach (beach + NASA nearby + manatees possible)\n• Hilton Cocoa Beach Oceanfront: Right on the beach, pool, great for kids\n• Residence Inn Cocoa Beach: More space for family, kitchenette\n• Comfort Suites Cocoa Beach: Great value, pool, close to beach\nSuggested itinerary:\n• 31 May: Disembark, check in, beach and decompress\n• 1 Jun: Kennedy Space Center (45 min north, full day)\n• 2 Jun: Manatees (kayak or Crystal River) + Cocoa Beach + drive to MCO area for final night\n• 3 Jun: Last breakfast, airport early evening for 22:15 departure\nAlternative: 1 night Cocoa Beach then 2 nights near Universal if kids want theme park (though probably exhausted after 2 weeks away)."
   },
   {
     "id": "seed-020",
-    "title": "Confirm airport transfer plan for return flight",
+    "title": "Book transfer from hotel to MCO for return flight",
     "phase": "FLORIDA_POST_CRUISE",
     "type": "TASK",
     "status": "INBOX",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "RYAN",
-    "priority": "CRITICAL"
+    "priority": "CRITICAL",
+    "estimatedMinutes": 20,
+    "notes": "BA 2036 departs MCO 22:15 on 3 Jun. Arrive MCO ~19:30 for international check-in. Transfer from hotel to MCO: ~45 min depending on where you're staying. Pre-book transfer or confirm Uber/Lyft availability. If staying near Cocoa Beach (1h from MCO) leave hotel by 18:00."
+  },
+  {
+    "id": "seed-031",
+    "title": "Sort luggage plan for BMW i4 (roof box or train?)",
+    "phase": "UK_PRE_FLIGHT",
+    "type": "RESEARCH",
+    "status": "TO_BE_RESEARCHED",
+    "confidence": "IDEA",
+    "owner": "RYAN",
+    "priority": "IMPORTANT",
+    "estimatedMinutes": 45,
+    "notes": "The problem: 2 large suitcases (~110L each) + 2 medium/kids cases (~80L each) = ~380L total. BMW i4 Gran Coupe boot is 470L on paper, but the sloping hatch opening makes loading tall suitcases genuinely awkward. In practice you'll struggle to get all 4 in.\n\nOption 1 - Roof Box (Recommended): BMW i4 can take roof bars + box. A Thule Motion XT L (430L) or Hapro Traxer 6.6 holds both large cases. Medium/kids cases stay in boot. Minimal range impact (~5%). Buy new (~£280-350 at Halfords/Thule.com) or rent from a Thule dealer. Worth buying - you'll use it again on holidays.\n\nOption 2 - Train: Manchester Piccadilly → London Thameslink → Gatwick Airport (no changes, ~2h30 total). Or Victoria → Gatwick Express (30 min). With trolleys and 4 bags it's perfectly manageable, and you're already staying at ibis Styles right at the South Terminal. ~£50-80 each way. Removes parking cost and driving stress.\n\nOption 3 - Hire estate car: Book a Ford Focus Estate / Skoda Octavia Estate from Enterprise (~£60) just for the drive south. All 4 bags fit easily, return to Manchester same day or next.\n\nVerdict: Roof box if you want to drive your own car. Train if you want zero luggage stress."
   },
   {
     "id": "seed-021",
-    "title": "Arrange car / return transport from Gatwick",
+    "title": "Arrange car / transport home from Gatwick",
     "phase": "UK_POST_CRUISE",
     "type": "TASK",
     "status": "INBOX",
     "confidence": "NEEDS_CONFIRMING",
     "owner": "RYAN",
-    "priority": "CRITICAL"
+    "priority": "CRITICAL",
+    "estimatedMinutes": 20,
+    "notes": "Land Gatwick 06:45 on 4 Jun. Options:\n1. Own car (if driven down): Collect from hotel/car park, drive M25 → M6 → Manchester (~3h30, add 30-60 min if rush hour).\n2. Train: Gatwick → Manchester Piccadilly via Thameslink/East Midlands ~3h, ~£40-70 depending on booking time. Manageable with trolleys and rested from the flight.\n3. Pre-booked private transfer: Reliable but ~£200-250 for the family.\nEarly morning arrival means roads should be quiet. If driving: leave Gatwick by 08:00 and you're home by 11:30 before traffic builds."
+  },
+  {
+    "id": "seed-032",
+    "title": "Survive the journey home and die at home",
+    "phase": "UK_POST_CRUISE",
+    "type": "TASK",
+    "status": "INBOX",
+    "confidence": "CONFIRMED",
+    "owner": "BOTH",
+    "priority": "NICE_TO_HAVE",
+    "estimatedMinutes": 420,
+    "notes": "Flight lands Gatwick 06:45, 4 Jun. The children will be feral. Find a Greggs at the services. Arrive home, remove sand from every orifice. Put a wash on. Open all the post. Stare out the window and wonder if it was a dream. Reassemble normal life gradually. Consider immediately booking next holiday to relieve the post-holiday blues."
   }
 ]

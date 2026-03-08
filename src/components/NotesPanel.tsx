@@ -23,6 +23,7 @@ export function NotesPanel({ entry, onClose, onSave }: Props) {
   const [confidence, setConfidence] = useState<Confidence>('NEEDS_CONFIRMING');
   const [priority,   setPriority]   = useState<Priority>('NICE_TO_HAVE');
   const [dueDate,    setDueDate]    = useState('');
+  const [estMins,    setEstMins]    = useState<number | ''>('');
   const [saving,     setSaving]     = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
 
@@ -34,6 +35,7 @@ export function NotesPanel({ entry, onClose, onSave }: Props) {
       setConfidence(entry.confidence);
       setPriority(entry.priority);
       setDueDate(entry.dueDate ?? '');
+      setEstMins(entry.estimatedMinutes ?? '');
     }
   }, [entry]);
 
@@ -62,6 +64,7 @@ export function NotesPanel({ entry, onClose, onSave }: Props) {
       confidence,
       priority,
       dueDate: dueDate || undefined,
+      estimatedMinutes: estMins !== '' ? Number(estMins) : undefined,
     });
     setSaving(false);
     onClose();
@@ -149,13 +152,27 @@ export function NotesPanel({ entry, onClose, onSave }: Props) {
                 ))}
               </select>
             </div>
-            <div className="col-span-2">
+            <div>
               <label className="block text-xs font-medium mb-1" style={{ color: '#7a7570', fontFamily: 'var(--font-body)' }}>Due date</label>
               <input
                 type="date"
                 value={dueDate}
                 onChange={e => setDueDate(e.target.value)}
-                className={`${selectClass} col-span-2`}
+                className={selectClass}
+                style={{ ...FIELD_STYLE, width: '100%' }}
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-medium mb-1" style={{ color: '#7a7570', fontFamily: 'var(--font-body)' }}>Est. time (min)</label>
+              <input
+                type="number"
+                min={5}
+                max={480}
+                step={5}
+                placeholder="e.g. 30"
+                value={estMins}
+                onChange={e => setEstMins(e.target.value === '' ? '' : Number(e.target.value))}
+                className={selectClass}
                 style={{ ...FIELD_STYLE, width: '100%' }}
               />
             </div>
